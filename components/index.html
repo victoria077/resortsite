@@ -44,15 +44,20 @@
             </ul>
             <h1>Подберем идеальные отели для вашего незабываемого отдыха</h1>
             <form>
-                    <input type="text" placeholder="Период дат вылетов">
-                    <select id="country" name="country">
-                      <option disabled></option>
+                    <input style="width:15%;" type="text" placeholder="Период дат вылетов">
+                    <input class="date" style="width:15%;" type="date" name="dateofbirth" id="dateofbirth">
+                    <select style="width:15%;" id="country" name="country">
+                      <option disabled selected>Человек в номере</option>
                       <option value="au">Australia</option>
                       <option value="ca">Canada</option>
                       <option value="usa">USA</option>
                     </select>
+                    <input style="width:15%;" type="text" placeholder="Цена не более">
             </form>
-
+            <div class="select">
+                <input type="radio" name="select" checked>Турпакет
+                <input type="radio" name="select">Конкретный отель
+            </div>
             <form>
                     <select id="city" name="city">
                       <option disabled selected>Город вылета</option>
@@ -72,7 +77,10 @@
                         <option value="ca">Canada</option>
                         <option value="usa">USA</option>
                     </select>
+                    <a href="#" class="add"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADOSURBVEhLYxjZIC0tjTUzM1MQSPNDhagPsrOzhYEWvAXi/yCcmpo6GypFXQA0WBdmCdSiw1Ap6oJRi8gGQ9MiUBJOSUkxxoaBhocjWwTE57GpA2GQo+rr61mgxqICkARQMzyfUIqBlvVAjUYFQEl+dMWUYKBFS6FGo4KkpCRebBrIxTgtAgGg5GygojPYMFDuKpBGNugzTA4LPg6U94MaSxoAahzNR+SBUYvIBunp6VpoFh2ESlEXgIoooOE9QEtWAekVQExePhkFpAEGBgBgLmMftFT4ugAAAABJRU5ErkJggg=="></a>
             </form>
+            <textarea>Дополнительные пожелания
+                                    </textarea>
               <form action="">
                   <input type="text" placeholder="Ваше имя">
                   <input type="text" placeholder="Teлефон">

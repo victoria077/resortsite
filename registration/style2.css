@@ -96,92 +96,39 @@ body{
   .steps li a:first-child{
       padding-left: 0;
   }
-
   .steps li a:active{
       color: #475669;
       border-color: #475669;
   }
 
-h1{
-    text-transform: uppercase;
-    color: #7b98ad;
+p{
+    margin-left: 15%;
     font-size: 20px;
-    margin-left: 15%;
-    padding-bottom: 1%;
+    line-height: 2;
 }
 
-textarea {
-    width: 65%;
-    height: 150px;
-    padding: 20px 20px;
-    background-color: #fff;
-    font-size: 16px;
-    resize: none;
-    border: none;
-    margin-left: 15%;
-    color: #bcb8b4;
-    font-size: 18px;
-}
-
-input{
-    margin: 2% 0;
-    padding: 21px;
-    border: none;
-    font-size: 16px;
-    resize: none;
-    border: none;
-    color: #bcb8b4;
-    font-size: 18px;
-    width: 20%;
-}
-
-input:first-child{
-    margin-left: 15%;
-}
-
-
-button{
-    font-size: 20px;
-    color: #fff;
-    background-color: #ff8e41;
-    padding: 20px 5.6%;
-    border: none;
-    margin-left: 15%;
+.completed{
+    font-weight: bold;
     margin-bottom: 2%;
 }
 
-footer p{
-    color: #5e6b7c;
-    font-size: 16px;
+button{
+    font-size: 20px;
+    color: #ff8e41;
+    background-color: #fff;
+    padding: 19px 6.5%;
+    margin-bottom: 2%;
+    border-color: #ff8e41;
+    border-radius: 3px;
+}
+ 
+.reg{
+    font-size: 20px;
+    color: #fff;
+    background-color: #ff8e41;
+    padding: 20px 6.5%;
+    border: none;
+    margin-bottom: 2%;
     margin-left: 15%;
+    margin-right: 1%;
 }
-
-footer a{
-    color: #398ecb;
-}
-
-  .progress span{
-    transition: all 500ms ease;
-    background: #fff;
-    box-shadow: 1px 2px 3px #999;
-    height: 5px;
-    width: 5px;  
-    display: inline-block;
-    border-radius: 10px;
-    animation: wave 2s ease  infinite;
-  }  
-
-  .progress span:nth-child(1){  animation-delay: 0; }
-  .progress span:nth-child(2){  animation-delay: 100ms; }
-  .progress span:nth-child(3){  animation-delay: 200ms; }
-  
-  @keyframes wave{
-    0%, 40%, 100% { 
-      transform: translate(0, 0);
-      background-color: #fff;    
-    }
-    10% { 
-      transform: translate(0, -15px); 
-      background-color: #fff;    
-    }  
-  }
